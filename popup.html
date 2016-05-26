@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>The thing</title>
+        <script type="text/javascript" src="./popup.js"></script>
+        <script type="text/javascript" src="./node_modules/lodash/lodash.js"></script>
+    </head>
 
-<head>
-    <title>The thing</title>
-    <script type="text/javascript" src="./popup.js"></script>
-    <script type="text/javascript" src="./node_modules/lodash/lodash.js"></script>
-</head>
+    <body>
+        <div class="extension-container">
+            <h1>FanDuel Bookmarklets</h1>
+            <button class="btn btn-default bookmarklet" id="make-crappy-lineup">Draft: Make Crappy Lineup</button>
+            <button class="btn btn-default bookmarklet" id="scout-dev">scout=dev</button>
+            <button class="btn btn-default bookmarklet" id="bypass-kyc">Bypass KYC Verification Form</button>
 
-<body>
-    <h1>FanDuel Bookmarklets</h1>
-    <button class="bookmarklet" id="make-crappy-lineup">Draft: Make Crappy Lineup</button>
-    <button class="bookmarklet" id="scout-dev">scout=dev</button>
-    <button class="bookmarklet" id="bypass-kyc">Bypass KYC Verification Form</button>
-</body>
+            <button class="btn btn-default bookmarklet" id="leaderboard">Leaderboard</button>
+            <button class="btn btn-default bookmarklet" id="ignore-started">Ignore Started</button>
 
+            <button class="btn btn-default bookmarklet" id="admin-game">Admin Game</button>
+            <button class="btn btn-default bookmarklet" id="copy-table">Copy Table</button>
+            <button class="btn btn-default bookmarklet" id="edit-table">Edit Table</button>
+        </div>
+    </body>
 </html>

@@ -6,3 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+var style = document.createElement('link');
+style.rel = 'stylesheet';
+style.type = 'text/css';
+style.href = chrome.extension.getURL('node_modules/bootstrap/dist/css/bootstrap.css');
+(document.head||document.documentElement).appendChild(style);
+
+var style = document.createElement('link');
+style.rel = 'stylesheet';
+style.type = 'text/css';
+style.href = chrome.extension.getURL('popup.css');
+(document.head||document.documentElement).appendChild(style);
