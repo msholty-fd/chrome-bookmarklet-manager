@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "chrome-bookmarklet-manager",
+  "description": "This extension grabs js bookmarklets from a repo and provides a ui to use them easily",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "19": "logo.png",
+      "38": "logo.png",
+      "48": "logo.png",
+      "128": "fanduel128.jpeg"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "19": "logo.png",
+    "38": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": ["activeTab", "tabs"]
+}

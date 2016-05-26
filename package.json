@@ -1,0 +1,25 @@
+{
+  "name": "chrome-bookmarklet-manager",
+  "version": "1.0.0",
+  "description": "Google Chrome Extension with a collection of bookmarklets to make your life easier",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msholty-fd/chrome-bookmarklet-manager.git"
+  },
+  "keywords": [
+    "FanDuel"
+  ],
+  "author": "Michael Sholty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msholty-fd/chrome-bookmarklet-manager/issues"
+  },
+  "homepage": "https://github.com/msholty-fd/chrome-bookmarklet-manager#readme",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}

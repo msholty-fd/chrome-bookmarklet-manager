@@ -1,0 +1,11 @@
+$('#id_first_name').val('JOHN');
+$('#id_last_name').val('SMITH');
+$('#id_address_1').val('222333 PEACHTREE PLACE');
+$('#id_city').val('ATLANTA');
+$('#id_country_and_state').val('USA_GA');
+$('#id_postal_code').val('30318');
+$('#id_date_of_birth_month').val('2');
+$('#id_date_of_birth_day').val('28');
+$('#id_date_of_birth_year').val('1975');
+$('#id_national_id_value').val('112-22-3333');
+$('.kyc-form form').submit();

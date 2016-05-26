@@ -1,9 +1,16 @@
 # chrome-bookmarklet-manager
-Chrome extension to get bookmarklets from a github repo and give you an easy way to use them
+Chrome extension that holds useful bookmarklets for developers
+
+## Installation
+* Clone this repo
+```sh
+git clone foo
+```
+* Open Chrome and navigate to chrome://extensions/
+* Make sure the "Developer Mode" checkbox on the top right is checked on
+* Click "Load Unpacked Extension"
+* Ta da!
 
 # TODO
-* Create toggle to turn it on/off (what if a bookmarklet broke something???)
-* How will the user configure which github repo holds their fancy bookmarklets?
-* Create UI to show the library of bookmarklets once integrated
+* Iterate over bookmkarlets/* js files and create buttons dynamically
 * Minify/uglify the code? Is it necessary?
-* What file structure is good?
